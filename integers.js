@@ -1,6 +1,6 @@
 
 
-for(var i = 0; i < 100000000; i++){
+for(var i = -100000000; i < 100000000; i++){
 
     if (isJohnnyBeGood(i)) {
         console.log("Találtunk ! : " + i + " \n\r");
